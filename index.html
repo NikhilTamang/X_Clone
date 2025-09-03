@@ -27,28 +27,28 @@
         </div>
         <div class="sidebar flex w-full">
             <ul class="flex flex-col text-[21px] text-grayish">
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white font-semibold text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white font-semibold text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px">home</span>Home
                 </li>
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px;"> search </span>Explore
                 </li>
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px;"> notifications </span>Notifications
                 </li>
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px;"> mail </span>Messages
                 </li>
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px;"> smart_toy </span>Grok
                 </li>
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px;"> groups </span>Communities
                 </li>
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px;"> person </span>Profile
                 </li>
-                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
+                <li class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer tracking-wide hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white">
                     <span class="material-symbols-outlined" style="font-size: 28px;"> pending </span>More
                 </li>
             </ul>
@@ -58,12 +58,57 @@
       <div class="second w-full border-x border-x-border">Hello</div>
 
 
-      <div class="third w-full">
-        <div class="search flex items-center relative mx-auto w-4/5 mt-2">
-
+      <div class="third w-full flex flex-col justify-start items-center">
+        <div class="search flex items-center relative w-4/5 mt-2">
          <span class="material-symbols-outlined absolute ml-3" style="font-size: 17px; color: gray;"> search </span>
 
          <input type="text" class="border-none outline-none text-md ring-1 ring-border focus:ring-2 focus:ring-blue-500 rounded-full bg-black text-white pl-9 pr-5 py-2 w-full" placeholder="Search">
+        </div>
+
+        <div class="trending m-4 w-4/5 border border-border rounded-2xl">
+
+          <h1 class="font-extrabold text-xl m-3 ml-4 mb-2 mt-2 text-heading-color">What's Happening</h1>
+
+          <div class="item p-3 pl-4 hover:bg-hover-dark cursor-pointer">
+            <div class="flex justify-between">
+              <div class="text-[13px] text-trending-text">Trending in Nepal</div>
+              <span class="material-symbols-outlined" style="font-size: 20px; color: rgb(113 118 123);">more_horiz</span>
+            </div>
+            <div class="text-heading-color text-[15px] font-bold">Connect</div>
+            <div class="text-[13px] text-trending-text">172K posts</div>
+          </div>
+          
+
+          <div class="item p-3 pl-4 hover:bg-hover-dark cursor-pointer">
+            <div class="flex justify-between">
+              <div class="text-[13px] text-trending-text">Trending in Nepal</div>
+              <span class="material-symbols-outlined" style="font-size: 20px; color: rgb(113 118 123);">more_horiz</span>
+            </div>
+            <div class="text-heading-color text-[15px] font-bold">Nepal</div>
+            <div class="text-[13px] text-trending-text">7,308 posts</div>
+          </div>
+
+          <div class="item p-3 pl-4 hover:bg-hover-dark cursor-pointer">
+            <div class="flex justify-between">
+              <div class="text-[13px] text-trending-text">Politics · Trending</div>
+              <span class="material-symbols-outlined" style="font-size: 20px; color: rgb(113 118 123);">more_horiz</span>
+            </div>
+            <div class="text-heading-color text-[15px] font-bold">Tainjin</div>
+            <div class="text-[13px] text-trending-text">14.7K posts</div>
+          </div>
+
+          <div class="item p-3 pl-4 hover:bg-hover-dark cursor-pointer">
+            <div class="flex justify-between">
+              <div class="text-[13px] text-trending-text">Trending in Nepal</div>
+              <span class="material-symbols-outlined" style="font-size: 20px; color: rgb(113 118 123);">more_horiz</span>
+            </div>
+            <div class="text-heading-color text-[15px] font-bold">#ictframe</div>
+            <div class="text-[13px] text-trending-text">1.2K posts</div>
+          </div>
+
+          <div  class="item p-4 pl-4 hover:bg-hover-dark cursor-pointer">
+            <h3 class="text-[rgb(29,155,240)] text-[15px]">Show more</h3>
+          </div>
 
         </div>
       </div>

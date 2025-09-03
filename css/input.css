@@ -4,4 +4,7 @@
     --color-grayish : #e7e9ea;
     --color-hover : rgba(28, 29, 30, 0.9);
     --color-border : #2f3336;
+    --color-hover-dark: rgba(255, 255, 255, 0.04);
+    --color-heading-color: rgb(231, 233, 234);
+    --color-trending-text: #71767b
 }
