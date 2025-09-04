@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+    "dev": "tailwindcss -i ./css/input.css -o ./css/output.css --watch",
+    "build": "vite"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/NikhilTamang/X_Clone#readme",
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
-    "tailwindcss": "^4.1.12"
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.4"
   }
 }
