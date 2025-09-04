@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="./css/output.css" />
   </head>
   <body class="bg-black text-white">
-    <div class="flex container mx-auto bg-black text-white h-screen">
-      <div class="first w-[60%]">
+    <div class="flex container mx-auto bg-black text-white h-screen w-screen">
+      <div class="first w-[50%]">
         <div class="logo invert mt-3 mb-5">
           <svg
             viewBox="0 0 24 24"
@@ -88,9 +88,35 @@
         </div>
       </div>
 
-      <div class="second w-full border-x border-x-border">Hello</div>
+      <div class="second w-full border-x border-x-border">
 
-      <div class="third w-full flex flex-col justify-start items-center">
+        <div class="top flex border-b border-border relative">
+          <div class="absolute h-1 w-15 rounded-lg bg-[rgb(29,155,240)] bottom-0.5 left-1/5 z-10"></div>
+          <div class="left w-1/2 py-4 text-center text-[15px] text-white font-bold hover:bg-hover cursor-pointer">For you</div>
+          <div class="right w-1/2 py-4 text-center text-[15px] text-trending-text font-medium hover:bg-hover cursor-pointer">Following</div>
+        </div>
+
+        <div class="whats-happening flex items-center space-x-3 p-5">
+          <div class="profile-pic w-11 h-10 rounded-full overflow-hidden bg-green-300 relative top-[-25px]">
+                <img
+                  class="w-full h-full object-cover"
+                  src="https://abs.twimg.com/sticky/default_profile_images/default_profile_400x400.png"
+                  alt=""
+                />
+          </div>
+
+          <div class="post-section flex flex-col gap-2 w-full">
+            <input type="text" class="w-full text-xl placeholder:font-normal placeholder:text-xl border-none outline-none " placeholder="What's happening?">
+            <div class="globe flex items-center gap-2 border-b border-b-border pb-1">
+              <div class="material-symbols-outlined my-3 text-[#1d9bf0]" style="font-size: 15px;">globe_uk</div>
+              <div class="text-[#1d9bf0] font-medium text-[15px]">Everyone can reply</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="third w-[70%] flex flex-col justify-start items-center">
         <div class="search flex items-center relative w-4/5 mt-2">
           <span
             class="material-symbols-outlined absolute ml-3"
@@ -193,7 +219,7 @@
             <div class="flex items-center space-x-2">
               <div class="profile-pic w-10 h-10 rounded-full overflow-hidden">
                 <img
-                  class="w-full object-cover"
+                  class="w-full h-full object-cover"
                   src="https://pbs.twimg.com/profile_images/1537593562619060225/AmmxIwWi_400x400.jpg"
                   alt=""
                 />
@@ -219,7 +245,7 @@
             <div class="flex items-center space-x-2">
               <div class="profile-pic w-10 h-10 rounded-full overflow-hidden">
                 <img
-                  class="w-full object-cover"
+                  class="w-full h-full object-cover"
                   src="https://pbs.twimg.com/profile_images/1410983637391069187/bxoCUxj8_400x400.jpg"
                   alt=""
                 />
@@ -245,7 +271,7 @@
             <div class="flex items-center space-x-2">
               <div class="profile-pic w-10 h-10 rounded-full overflow-hidden">
                 <img
-                  class="w-full object-cover"
+                  class="w-full h-full object-cover"
                   src="https://pbs.twimg.com/profile_images/925092227667304448/fAY1HUu3_400x400.jpg"
                   alt=""
                 />
@@ -259,7 +285,7 @@
               </div>
             </div>
             <button
-              class="p-1 px-4 bg-white text-black text-sm font-semibold rounded-full hover:bg-hover-dark"
+              class="p-1 px-4 bg-white text-black text-sm font-semibold rounded-full"
             >
               Follow
             </button>
