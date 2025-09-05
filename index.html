@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="./css/output.css" />
   </head>
   <body class="bg-black text-white">
-    <div class="flex container mx-auto bg-black text-white h-screen w-screen">
-      <div class="first w-[50%]">
+    <div
+      class="flex container px-5 lg:mx-auto bg-black text-white h-screen w-full"
+    >
+      <div class="first w-[20%]">
         <div class="logo invert mt-3 mb-5">
           <svg
             viewBox="0 0 24 24"
@@ -34,7 +36,7 @@
             >
               <span class="material-symbols-outlined" style="font-size: 28px"
                 >home</span
-              >Home
+              ><span class="hidden lg:block"> Home </span>
             </li>
             <li
               class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white"
@@ -44,7 +46,7 @@
                 style="font-size: 28px; color: #e7e9ea"
               >
                 search </span
-              >Explore
+              ><span class="hidden lg:block"> Explore </span>
             </li>
             <li
               class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white"
@@ -54,7 +56,7 @@
                 style="font-size: 28px; color: #e7e9ea"
               >
                 notifications </span
-              >Notifications
+              ><span class="hidden lg:block"> Notifications</span>
             </li>
             <li
               class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white"
@@ -64,7 +66,7 @@
                 style="font-size: 28px; color: #e7e9ea"
               >
                 mail </span
-              >Messages
+              ><span class="hidden lg:block"> Messages </span>
             </li>
             <li
               class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white"
@@ -74,7 +76,7 @@
                 style="font-size: 28px; color: #e7e9ea"
               >
                 smart_toy </span
-              >Grok
+              ><span class="hidden lg:block"> Grok </span>
             </li>
             <li
               class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white"
@@ -84,7 +86,7 @@
                 style="font-size: 28px; color: #e7e9ea"
               >
                 groups </span
-              >Communities
+              ><span class="hidden lg:block"> Communities </span>
             </li>
             <li
               class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white"
@@ -94,7 +96,7 @@
                 style="font-size: 28px; color: #e7e9ea"
               >
                 person </span
-              >Profile
+              ><span class="hidden lg:block"> Profile </span>
             </li>
             <li
               class="flex justify-center items-center pl-3 pr-5 py-2 gap-4 w-fit cursor-pointer hover:bg-hover hover:rounded-full hover:font-semibold hover:text-white"
@@ -104,7 +106,7 @@
                 style="font-size: 28px; color: #e7e9ea"
               >
                 pending </span
-              >More
+              ><span class="hidden lg:block"> More </span>
             </li>
           </ul>
         </div>
@@ -117,7 +119,7 @@
         </div>
       </div>
 
-      <div class="second w-screen min-h-screen border-x border-x-border">
+      <div class="second w-[50%] min-h-screen border-x border-x-border">
         <div class="top flex border-b border-border relative">
           <div
             class="absolute h-1 w-15 rounded-lg bg-[rgb(29,155,240)] bottom-0 left-1/5 z-10"
@@ -293,7 +295,7 @@
                     style="font-size: 18px"
                     >favorite</span
                   >
-                   <span class="group-hover:text-[rgb(249,24,128)]">122K</span>
+                  <span class="group-hover:text-[rgb(249,24,128)]">122K</span>
                 </div>
 
                 <div
@@ -304,7 +306,7 @@
                     style="font-size: 18px"
                     >bar_chart</span
                   >
-                   <span class="group-hover:text-[rgb(29,155,240)]">2.1M</span>
+                  <span class="group-hover:text-[rgb(29,155,240)]">2.1M</span>
                 </div>
 
                 <div
@@ -327,7 +329,7 @@
         </div>
       </div>
 
-      <div class="third w-[70%] flex flex-col justify-start items-center">
+      <div class="third w-[30%] flex flex-col justify-start items-center">
         <div class="search flex items-center relative w-[85%] mt-2">
           <span
             class="material-symbols-outlined absolute ml-3"
